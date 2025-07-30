@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+  font-family: "Ubuntu", serif;
+padding: 0;
+margin: 0;
+
+}
+
+body{
+background-image: linear-gradient(to right, #01022d,black);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contener{
+  background-image:linear-gradient(to right ,#01022de5 30%,#00000088),
+  url(ava.png);
+background-repeat: no-repeat;
+background-size: cover;
+ width: 90%;
+height: 90vh;
+border-radius:50px;
+background-position: center;
+}
+.contener:hover{
+  background-image:linear-gradient(to right ,#716e6e87 30% ,transparent),
+  url(ava.png);
+  
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+    margin: 0 40px;
+
+}
+.logo{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+gap: 10px;
+}
+a{
+  color: white;
+  text-decoration: none;
+
+}
+ul a{
+  border-bottom: 2px solid  transparent;
+  font-style: italic;
+  text-transform: capitalize;
+}
+ul a:hover{
+  border-bottom-color: white;
+}
+.content{
+  width: 50%;
+  margin-top: 50px;
+  padding: 30px;
+  color: white;
+
+}
+.content h2{
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.content p{
+  letter-spacing: 2px;
+  width: 350px;
+  padding: 20px 0;
+}
+.content button{
+  font-size: 30px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 2px solid  transparent;
+  cursor: pointer;
+}
+.content button:hover{
+  background-color: transparent;
+  color: white;
+  border-color: white;
+mix
+}
+
+
